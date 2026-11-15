@@ -1,0 +1,58 @@
+Georgia - published administrative guidance on immigration case handling
+Checked 2026-11-15.
+
+Result: no guidance for decision-makers is published. Procedure is set by legal acts, all
+public on matsne.gov.ge: government resolutions (residence permits, work permits, stateless
+status, visas), orders of the Minister of Internal Affairs (asylum requests, expulsion,
+detention; the Ministry's Migration Department decides asylum and expulsion), orders of the
+Minister of Justice and decisions of the Citizenship Commission (citizenship). The Public
+Service Development Agency (SDA), which decides residence permits, citizenship and stateless
+status, publishes only those acts and applicant information. No manual, instruction,
+methodological recommendation or circular to officials was found.
+
+What is here (index.tsv, 13 files, 1.4 MB, all "procedural act")
+  sda/     6 PDFs from https://sda.gov.ge/legal-acts/ > "მოქალაქეობა / მიგრაცია": Government
+           Resolution 520/2014 (residence permits), 70/2026 (work permits), Citizenship
+           Commission decisions 1 and 2 of 2018 (commission rules; examining citizenship
+           cases), Minister of Justice orders 996/2024 (citizenship test) and 888/2023 (municipal
+           commissions establishing residence). The laws on the same page were not taken.
+  matsne/  7 consolidated PDFs from https://matsne.gov.ge: Government Resolutions 523/2014
+           (stateless status determination) and 280/2015 (visas); Minister of Internal Affairs
+           orders 102, 103, 105 of 6.10.2025 (identifying asylum requests at the border, after
+           irregular crossing, or at a Ministry institution; information exchange), 112 of
+           14.11.2025 (examining expulsion; detention) and 116 of 28.11.2025 (detention in the
+           temporary accommodation centre). The latest consolidated version listed on each
+           document page was taken; for order 112 that version reflects amendments up to
+           6.2.2026, and the amendments of 25.8.2026 and 11.11.2026 were not yet consolidated.
+True guidance: none.
+
+Sources checked
+- https://sda.gov.ge: /robots.txt redirects to the home page (no rules). Sitemaps
+  (legal-acts, legal-act-category, page, products, services); /legal-acts/ and its
+  categories: "ნორმატიული აქტები" and "თავმჯდომარის ბრძანებები" (chairman's orders) are empty
+  (404 "no posts"); "მოქალაქეობა / მიგრაცია" holds the acts listed above; other categories
+  concern civil registration, identity documents, apostille, fees and access to information.
+- https://matsne.gov.ge: robots.txt allows document pages (Crawl-delay 10, honoured). Searches
+  for "მიგრაციის დეპარტამენტ", "გაძევების", "მოქალაქეობის არმქონე პირის სტატუს",
+  "თავშესაფრის მაძიებ", "საერთაშორისო დაცვის", "ვიზის გაცემის". Left out on purpose: the laws;
+  the Migration Department's statute (order 588/2014) and amendments; reception-centre,
+  video-monitoring, fingerprinting, asylum-seeker card and Georgian-language-course orders;
+  fee resolutions; amending acts.
+- https://migration.commission.ge (State Commission on Migration Issues, which publishes
+  guidebooks and studies): every address returns the same page with a JavaScript cookie
+  challenge. Host closed; not obtained (see not-obtained.tsv).
+- https://police.ge (Ministry of Internal Affairs): timed out twice; mia.gov.ge: no DNS.
+
+Completeness doubts
+- The Migration Department's internal instructions on refugee status determination
+  (interview, credibility, country information) are not public, as far as could be seen.
+- The State Commission's "literature" and "products" pages may hold training material or
+  handbooks for officials; they could not be read.
+- The asylum procedure itself is set mostly in the Law on International Protection (2025),
+  which is not taken.
+
+Earlier agent / this agent: an earlier run read the sda.gov.ge listings and sitemaps and
+met the migration.commission.ge challenge; the downloads, matsne searches, index and notes
+were made on 2026-11-15 by the agent that finished the folder.
+
+Re-run: python3 download_ge.py
